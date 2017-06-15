@@ -48,10 +48,13 @@
 
                 <Button
                     android:id="@+id/b1"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="wrap_content"
                     android:layout_height="65dp"
                     android:layout_weight="1"
-                    android:text="00:00" />
+                    android:text="00:00"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -66,10 +69,13 @@
 
                 <Button
                     android:id="@+id/b2"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="wrap_content"
                     android:layout_height="65dp"
                     android:layout_weight="1"
-                    android:text="00:00" />
+                    android:text="00:00"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -84,10 +90,13 @@
 
                 <Button
                     android:id="@+id/b3"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="wrap_content"
                     android:layout_height="65dp"
                     android:layout_weight="1"
-                    android:text="00:00" />
+                    android:text="00:00"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -102,10 +111,13 @@
 
                 <Button
                     android:id="@+id/b4"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="wrap_content"
                     android:layout_height="65dp"
                     android:layout_weight="1"
-                    android:text="00:00" />
+                    android:text="00:00"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -120,10 +132,13 @@
 
                 <Button
                     android:id="@+id/b5"
+                    style="@style/Widget.AppCompat.Button.Borderless"
                     android:layout_width="wrap_content"
                     android:layout_height="65dp"
                     android:layout_weight="1"
-                    android:text="00:00" />
+                    android:text="00:00"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\issid\Desktop\BrevnoAlarm\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\alarm\smartAlarmProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="e67eb6013dc4bd98772fc6b3d9cb178c55c5762e">
-        <dex dex="C:\Users\issid\Desktop\BrevnoAlarm\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9d2f390d0ffb97845d76f6a4da724bb8a6b64b2c\classes.dex" />
+        sha1="0c69169bde7dc13924edd4d47ebdcebfced60010">
+        <dex dex="D:\alarm\smartAlarmProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_197334c7db6306cc62626d561b2f54a51d648597\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\issid\Desktop\BrevnoAlarm\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\alarm\smartAlarmProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\issid\Desktop\BrevnoAlarm\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d68a812c77ffc10723e18ae9305ccfc0dfb06bf9\classes.dex" />
+        <dex dex="D:\alarm\smartAlarmProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_83303e7f3bc94254fa91a16742b9eaa1bd72e510\classes.dex" />
     </item>
 
 </items>

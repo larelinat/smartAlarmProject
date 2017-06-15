@@ -13,12 +13,20 @@ import java.text.SimpleDateFormat;
  * Created by issid on 04.06.2017.
  */
 
+
 public class AlarmReceiver extends BroadcastReceiver {
+
+
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        String date_str = new SimpleDateFormat("HH:mm:ss dd.MM.yyyy").format(System.currentTimeMillis());
-        Log.d("LOG",date_str);
+
+
+        Intent intent1 = new Intent(context, AlarmOff.class);
+        intent1.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(intent1);
+
+
 
     }
 }

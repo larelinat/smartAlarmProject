@@ -3,6 +3,7 @@
     package="com.example.issid.brevnoalarm">
 
     <application
+        android:noHistory="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Settings" />
-        <activity android:name=".alarmoff" />
+        <uses-permission android:name="android.permission.VIBRATE"/>
         <activity android:name=".AlarmOff"></activity>
         <receiver android:name=".AlarmReceiver"></receiver>
     </application>

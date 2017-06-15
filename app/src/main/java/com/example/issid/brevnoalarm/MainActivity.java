@@ -4,6 +4,7 @@ package com.example.issid.brevnoalarm;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity  {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
         llMain = (LinearLayout) findViewById(R.id.llMain);
@@ -108,9 +110,16 @@ public class MainActivity extends AppCompatActivity  {
 
                 hour = getIntent().getIntExtra("hour", 0);
                 minute = getIntent().getIntExtra("minute", 0);
-                selectedTime = "" + hour + ":" + minute;
+
                 calendar.set(Calendar.HOUR_OF_DAY, hour);
                 calendar.set(Calendar.MINUTE, minute);
+                calendar.set(Calendar.SECOND, 0);
+
+                if (minute< 10) {
+                    selectedTime = "" + hour + ":0" + minute;
+                } else{
+                    selectedTime = "" + hour + ":" + minute;
+                }
 
 
                 ((Button) findViewById(btnID)).setText(selectedTime);
