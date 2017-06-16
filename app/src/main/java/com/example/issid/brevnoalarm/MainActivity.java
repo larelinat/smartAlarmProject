@@ -27,20 +27,15 @@ public class MainActivity extends AppCompatActivity  {
     CheckBox c1, c2, c3, c4, c5;
     PendingIntent pendingIntent;
     AlarmManager alarmManager;
-    AlarmExemplar alarmExemplar;
-    ArrayList<AlarmExemplar> alarmExemplars;
 
-    int count;
+
+
     /**
      * Called when the activity is first created.
      */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        for (int i = 0; i<count; i++){
-            alarmExemplars.add(i, alarmExemplar);
-        }
 
 
 
