@@ -19,7 +19,7 @@ public class AlarmOff extends AppCompatActivity {
 
 
     Button off_button, delay_button;
-
+    MediaPlayer mPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,19 +28,16 @@ public class AlarmOff extends AppCompatActivity {
 
         off_button = (Button) findViewById(R.id.off_button) ;
         delay_button = (Button) findViewById(R.id.delay_button) ;
+        mPlayer = MediaPlayer.create(this, R.raw.aaa);
 
-        final MediaPlayer mPlayer = MediaPlayer.create(this, R.raw.aaa);
         mPlayer.start();
 
 
         View.OnClickListener off = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 mPlayer.stop();
-
                 finish();
-
             }
         };
 
@@ -63,5 +60,11 @@ public class AlarmOff extends AppCompatActivity {
         };
 
         delay_button.setOnClickListener(delay);
+    }
+
+    @Override
+    protected void onDestroy() {
+       mPlayer.stop();
+        super.onDestroy();
     }
 }
